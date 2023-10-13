@@ -1,0 +1,38 @@
+body{
+  background-color: #FFC0CB;
+  font-family: 'Poppins';
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gif-bg {
+  background-color: aliceblue;
+  width: 200px;
+  height: 188px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#text-field {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#submit-btn{
+  margin: 5px;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  background-color: #ad4351;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
